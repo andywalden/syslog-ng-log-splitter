@@ -19,4 +19,5 @@ that you would like to turn into multiple log lines like these so that each IP p
     Nov 18 18:25:08 10.10.10.97 03:57:50 AntiDDoS1680 %%01ATK/4/FIREWALLATCK(l):AttackType="Trace route attack", slot=" ", cpu="0", receive interface="GE1/0/8 GE1/0/9 GE1/0/8 GE1/0/9 GE1/0/8 ", proto="ICMP", 112.100.87.109->112.64.185.124 begin time=2019/11/12 11:57:20 , end time=2019/11/12 11:57:50 , total packets="3059", max speed="0", Action="discard"
     Nov 18 18:25:08 10.10.10.97 03:57:50 AntiDDoS1680 %%01ATK/4/FIREWALLATCK(l):AttackType="Trace route attack", slot=" ", cpu="0", receive interface="GE1/0/8 GE1/0/9 GE1/0/8 GE1/0/9 GE1/0/8 ", proto="ICMP", 218.31.229.121->112.64.185.124 begin time=2019/11/12 11:57:20 , end time=2019/11/12 11:57:50 , total packets="3059", max speed="0", Action="discard"
 
-You can use this syslog-ng.conf and python file to do just that.
+This is an example syslog-ng.conf and python file to do just that.
+
